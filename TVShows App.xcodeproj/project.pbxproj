@@ -3,19 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA7B6103B4C916A6F04EF4A /* Pods_TVShows_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5049A17494B20E9130B151 /* Pods_TVShows_App.framework */; };
+		9D4535B24961BA630AF10431 /* Pods_TVShows_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0652C130B623313EC632C5A /* Pods_TVShows_AppTests.framework */; };
+		FF08E37F2544F5C400D7DF03 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08E37E2544F5C400D7DF03 /* Extensions.swift */; };
+		FF095B4C25451812002FC54C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF095B4A25451812002FC54C /* DetailView.swift */; };
+		FF095B4D25451812002FC54C /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF095B4B25451812002FC54C /* DetailView.xib */; };
+		FF095B5225455AED002FC54C /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF095B5125455AED002FC54C /* DetailViewModel.swift */; };
+		FF095B5825455BF2002FC54C /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF095B5725455BF1002FC54C /* DetailRouter.swift */; };
+		FF095B6D2545D809002FC54C /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF095B6B2545D809002FC54C /* FavView.swift */; };
+		FF095B6E2545D809002FC54C /* FavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF095B6C2545D809002FC54C /* FavView.xib */; };
+		FF095B772545D984002FC54C /* FavRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF095B762545D984002FC54C /* FavRouter.swift */; };
+		FF095B7F2545DA74002FC54C /* FavViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF095B7E2545DA74002FC54C /* FavViewModel.swift */; };
+		FF0F8E1F2546187800943934 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0F8E1D2546187800943934 /* TabBarView.swift */; };
+		FF0F8E202546187800943934 /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0F8E1E2546187800943934 /* TabBarView.xib */; };
+		FF0F8E2525461D2B00943934 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0F8E2425461D2B00943934 /* TabBarRouter.swift */; };
+		FF0F8E442546263500943934 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0F8E432546263500943934 /* TabBarViewModel.swift */; };
 		FF1ACEEC2544A9BC00D63686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACEEB2544A9BC00D63686 /* AppDelegate.swift */; };
 		FF1ACEEE2544A9BC00D63686 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACEED2544A9BC00D63686 /* SceneDelegate.swift */; };
-		FF1ACEF02544A9BC00D63686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACEEF2544A9BC00D63686 /* ViewController.swift */; };
-		FF1ACEF32544A9BC00D63686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1ACEF12544A9BC00D63686 /* Main.storyboard */; };
 		FF1ACEF62544A9BC00D63686 /* TVShows_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACEF42544A9BC00D63686 /* TVShows_App.xcdatamodeld */; };
 		FF1ACEF82544A9BF00D63686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1ACEF72544A9BF00D63686 /* Assets.xcassets */; };
 		FF1ACEFB2544A9BF00D63686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1ACEF92544A9BF00D63686 /* LaunchScreen.storyboard */; };
 		FF1ACF062544A9BF00D63686 /* TVShows_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACF052544A9BF00D63686 /* TVShows_AppTests.swift */; };
-		FF1ACF112544A9BF00D63686 /* TVShows_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACF102544A9BF00D63686 /* TVShows_AppUITests.swift */; };
+		FF1ACF372544B06900D63686 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACF362544B06900D63686 /* Constants.swift */; };
+		FF1ACF4D2544BBD100D63686 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACF4C2544BBD100D63686 /* HomeRouter.swift */; };
+		FF1ACF5A2544BF5F00D63686 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACF592544BF5F00D63686 /* HomeViewModel.swift */; };
+		FF1ACF772544C34800D63686 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACF752544C34800D63686 /* HomeView.swift */; };
+		FF1ACF782544C34800D63686 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF1ACF762544C34800D63686 /* HomeView.xib */; };
+		FF1ACF7E2544C99A00D63686 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACF7D2544C99A00D63686 /* Connector.swift */; };
+		FF1ACF8F2544CB4900D63686 /* TVShows.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACF8E2544CB4900D63686 /* TVShows.swift */; };
+		FF1ACFB92544ECED00D63686 /* TVShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACFB72544ECED00D63686 /* TVShowCell.swift */; };
+		FF1ACFBA2544ECED00D63686 /* TVShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF1ACFB82544ECED00D63686 /* TVShowCell.xib */; };
+		FF7D45432546BC0A00D8D404 /* Show+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D45412546BC0A00D8D404 /* Show+CoreDataClass.swift */; };
+		FF7D45442546BC0A00D8D404 /* Show+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D45422546BC0A00D8D404 /* Show+CoreDataProperties.swift */; };
+		FF7D45572546C9B300D8D404 /* ViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D45562546C9B300D8D404 /* ViewModelTest.swift */; };
+		FF7D455B2546CA6900D8D404 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1ACF592544BF5F00D63686 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,21 +51,31 @@
 			remoteGlobalIDString = FF1ACEE72544A9BC00D63686;
 			remoteInfo = "TVShows App";
 		};
-		FF1ACF0D2544A9BF00D63686 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF1ACEE02544A9BC00D63686 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF1ACEE72544A9BC00D63686;
-			remoteInfo = "TVShows App";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF087B0F7BAEB171E63CDDE /* Pods-TVShows AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVShows AppTests.release.xcconfig"; path = "Target Support Files/Pods-TVShows AppTests/Pods-TVShows AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		541E3727CA15039083A8E780 /* Pods-TVShows AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVShows AppTests.debug.xcconfig"; path = "Target Support Files/Pods-TVShows AppTests/Pods-TVShows AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C8300277F9DD8DFACFA8CAF /* Pods-TVShows App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVShows App.release.xcconfig"; path = "Target Support Files/Pods-TVShows App/Pods-TVShows App.release.xcconfig"; sourceTree = "<group>"; };
+		6480F0D3C223C0508A6BFE29 /* Pods-TVShows App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVShows App.debug.xcconfig"; path = "Target Support Files/Pods-TVShows App/Pods-TVShows App.debug.xcconfig"; sourceTree = "<group>"; };
+		AA5049A17494B20E9130B151 /* Pods_TVShows_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVShows_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0652C130B623313EC632C5A /* Pods_TVShows_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVShows_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF08E37E2544F5C400D7DF03 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FF095B4A25451812002FC54C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FF095B4B25451812002FC54C /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		FF095B5125455AED002FC54C /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		FF095B5725455BF1002FC54C /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		FF095B6B2545D809002FC54C /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
+		FF095B6C2545D809002FC54C /* FavView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavView.xib; sourceTree = "<group>"; };
+		FF095B762545D984002FC54C /* FavRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavRouter.swift; sourceTree = "<group>"; };
+		FF095B7E2545DA74002FC54C /* FavViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewModel.swift; sourceTree = "<group>"; };
+		FF0F8E1D2546187800943934 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		FF0F8E1E2546187800943934 /* TabBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarView.xib; sourceTree = "<group>"; };
+		FF0F8E2425461D2B00943934 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		FF0F8E432546263500943934 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
 		FF1ACEE82544A9BC00D63686 /* TVShows App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVShows App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1ACEEB2544A9BC00D63686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF1ACEED2544A9BC00D63686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF1ACEEF2544A9BC00D63686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF1ACEF22544A9BC00D63686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF1ACEF52544A9BC00D63686 /* TVShows_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TVShows_App.xcdatamodel; sourceTree = "<group>"; };
 		FF1ACEF72544A9BF00D63686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF1ACEFA2544A9BF00D63686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,9 +83,18 @@
 		FF1ACF012544A9BF00D63686 /* TVShows AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVShows AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1ACF052544A9BF00D63686 /* TVShows_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShows_AppTests.swift; sourceTree = "<group>"; };
 		FF1ACF072544A9BF00D63686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF1ACF0C2544A9BF00D63686 /* TVShows AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVShows AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF1ACF102544A9BF00D63686 /* TVShows_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShows_AppUITests.swift; sourceTree = "<group>"; };
-		FF1ACF122544A9BF00D63686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1ACF362544B06900D63686 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FF1ACF4C2544BBD100D63686 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		FF1ACF592544BF5F00D63686 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FF1ACF752544C34800D63686 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FF1ACF762544C34800D63686 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		FF1ACF7D2544C99A00D63686 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		FF1ACF8E2544CB4900D63686 /* TVShows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShows.swift; sourceTree = "<group>"; };
+		FF1ACFB72544ECED00D63686 /* TVShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowCell.swift; sourceTree = "<group>"; };
+		FF1ACFB82544ECED00D63686 /* TVShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVShowCell.xib; sourceTree = "<group>"; };
+		FF7D45412546BC0A00D8D404 /* Show+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FF7D45422546BC0A00D8D404 /* Show+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF7D45562546C9B300D8D404 /* ViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA7B6103B4C916A6F04EF4A /* Pods_TVShows_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,26 +110,114 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF1ACF092544A9BF00D63686 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9D4535B24961BA630AF10431 /* Pods_TVShows_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E364B160E57B3D5A16EC3826 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6480F0D3C223C0508A6BFE29 /* Pods-TVShows App.debug.xcconfig */,
+				5C8300277F9DD8DFACFA8CAF /* Pods-TVShows App.release.xcconfig */,
+				541E3727CA15039083A8E780 /* Pods-TVShows AppTests.debug.xcconfig */,
+				0AF087B0F7BAEB171E63CDDE /* Pods-TVShows AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E74C4F7526777F293C9E69FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5049A17494B20E9130B151 /* Pods_TVShows_App.framework */,
+				C0652C130B623313EC632C5A /* Pods_TVShows_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF095B29254510D0002FC54C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF1ACF592544BF5F00D63686 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FF095B2A254510E0002FC54C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF1ACF4C2544BBD100D63686 /* HomeRouter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FF095B5625455AF4002FC54C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FF095B5125455AED002FC54C /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FF095B5C25455BF8002FC54C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FF095B5725455BF1002FC54C /* DetailRouter.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FF095B752545D94B002FC54C /* Fav */ = {
+			isa = PBXGroup;
+			children = (
+				FF095B762545D984002FC54C /* FavRouter.swift */,
+			);
+			path = Fav;
+			sourceTree = "<group>";
+		};
+		FF095B832545DA9D002FC54C /* Fav */ = {
+			isa = PBXGroup;
+			children = (
+				FF095B7E2545DA74002FC54C /* FavViewModel.swift */,
+			);
+			path = Fav;
+			sourceTree = "<group>";
+		};
+		FF0F8E2925461D3000943934 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FF0F8E2425461D2B00943934 /* TabBarRouter.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FF0F8E482546263900943934 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FF0F8E432546263500943934 /* TabBarViewModel.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FF0F8E4F254626D700943934 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FF0F8E1D2546187800943934 /* TabBarView.swift */,
+				FF0F8E1E2546187800943934 /* TabBarView.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		FF1ACEDF2544A9BC00D63686 = {
 			isa = PBXGroup;
 			children = (
 				FF1ACEEA2544A9BC00D63686 /* TVShows App */,
 				FF1ACF042544A9BF00D63686 /* TVShows AppTests */,
-				FF1ACF0F2544A9BF00D63686 /* TVShows AppUITests */,
 				FF1ACEE92544A9BC00D63686 /* Products */,
+				E364B160E57B3D5A16EC3826 /* Pods */,
+				E74C4F7526777F293C9E69FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,7 +226,6 @@
 			children = (
 				FF1ACEE82544A9BC00D63686 /* TVShows App.app */,
 				FF1ACF012544A9BF00D63686 /* TVShows AppTests.xctest */,
-				FF1ACF0C2544A9BF00D63686 /* TVShows AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,10 +235,14 @@
 			children = (
 				FF1ACEEB2544A9BC00D63686 /* AppDelegate.swift */,
 				FF1ACEED2544A9BC00D63686 /* SceneDelegate.swift */,
-				FF1ACEEF2544A9BC00D63686 /* ViewController.swift */,
-				FF1ACEF12544A9BC00D63686 /* Main.storyboard */,
-				FF1ACEF72544A9BF00D63686 /* Assets.xcassets */,
+				FF1ACF8D2544CB1900D63686 /* Models */,
+				FF1ACF332544AC5D00D63686 /* Views */,
+				FF1ACF342544AC7400D63686 /* ViewModels */,
+				FF1ACF4B2544BBAE00D63686 /* Router */,
+				FF1ACF352544B04200D63686 /* Resources */,
+				FF1ACF7C2544C96300D63686 /* NetworkManager */,
 				FF1ACEF92544A9BF00D63686 /* LaunchScreen.storyboard */,
+				FF1ACEF72544A9BF00D63686 /* Assets.xcassets */,
 				FF1ACEFC2544A9BF00D63686 /* Info.plist */,
 				FF1ACEF42544A9BC00D63686 /* TVShows_App.xcdatamodeld */,
 			);
@@ -118,17 +254,98 @@
 			children = (
 				FF1ACF052544A9BF00D63686 /* TVShows_AppTests.swift */,
 				FF1ACF072544A9BF00D63686 /* Info.plist */,
+				FF7D45562546C9B300D8D404 /* ViewModelTest.swift */,
 			);
 			path = "TVShows AppTests";
 			sourceTree = "<group>";
 		};
-		FF1ACF0F2544A9BF00D63686 /* TVShows AppUITests */ = {
+		FF1ACF212544A9D100D63686 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				FF1ACF102544A9BF00D63686 /* TVShows_AppUITests.swift */,
-				FF1ACF122544A9BF00D63686 /* Info.plist */,
+				FF1ACF752544C34800D63686 /* HomeView.swift */,
+				FF1ACF762544C34800D63686 /* HomeView.xib */,
 			);
-			path = "TVShows AppUITests";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FF1ACF222544A9E000D63686 /* Favs */ = {
+			isa = PBXGroup;
+			children = (
+				FF095B6B2545D809002FC54C /* FavView.swift */,
+				FF095B6C2545D809002FC54C /* FavView.xib */,
+			);
+			path = Favs;
+			sourceTree = "<group>";
+		};
+		FF1ACF232544A9EB00D63686 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FF095B4A25451812002FC54C /* DetailView.swift */,
+				FF095B4B25451812002FC54C /* DetailView.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FF1ACF332544AC5D00D63686 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF1ACFB72544ECED00D63686 /* TVShowCell.swift */,
+				FF1ACFB82544ECED00D63686 /* TVShowCell.xib */,
+				FF1ACF212544A9D100D63686 /* Home */,
+				FF1ACF232544A9EB00D63686 /* Detail */,
+				FF1ACF222544A9E000D63686 /* Favs */,
+				FF0F8E4F254626D700943934 /* TabBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF1ACF342544AC7400D63686 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF095B29254510D0002FC54C /* Home */,
+				FF095B5625455AF4002FC54C /* Detail */,
+				FF095B832545DA9D002FC54C /* Fav */,
+				FF0F8E482546263900943934 /* TabBar */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FF1ACF352544B04200D63686 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF1ACF362544B06900D63686 /* Constants.swift */,
+				FF08E37E2544F5C400D7DF03 /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FF1ACF4B2544BBAE00D63686 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FF095B2A254510E0002FC54C /* Home */,
+				FF095B5C25455BF8002FC54C /* Detail */,
+				FF095B752545D94B002FC54C /* Fav */,
+				FF0F8E2925461D3000943934 /* TabBar */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FF1ACF7C2544C96300D63686 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				FF1ACF7D2544C99A00D63686 /* Connector.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		FF1ACF8D2544CB1900D63686 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF7D45412546BC0A00D8D404 /* Show+CoreDataClass.swift */,
+				FF7D45422546BC0A00D8D404 /* Show+CoreDataProperties.swift */,
+				FF1ACF8E2544CB4900D63686 /* TVShows.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF1ACF152544A9BF00D63686 /* Build configuration list for PBXNativeTarget "TVShows App" */;
 			buildPhases = (
+				804D8035E771A3BA86129DBB /* [CP] Check Pods Manifest.lock */,
 				FF1ACEE42544A9BC00D63686 /* Sources */,
 				FF1ACEE52544A9BC00D63686 /* Frameworks */,
 				FF1ACEE62544A9BC00D63686 /* Resources */,
+				BA5B62F4257E11C69392236D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,9 +374,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF1ACF182544A9BF00D63686 /* Build configuration list for PBXNativeTarget "TVShows AppTests" */;
 			buildPhases = (
+				786102DE706D6F4EABE6C37C /* [CP] Check Pods Manifest.lock */,
 				FF1ACEFD2544A9BF00D63686 /* Sources */,
 				FF1ACEFE2544A9BF00D63686 /* Frameworks */,
 				FF1ACEFF2544A9BF00D63686 /* Resources */,
+				40733E246A1797B6EFCC3055 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,24 +389,6 @@
 			productName = "TVShows AppTests";
 			productReference = FF1ACF012544A9BF00D63686 /* TVShows AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FF1ACF0B2544A9BF00D63686 /* TVShows AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF1ACF1B2544A9BF00D63686 /* Build configuration list for PBXNativeTarget "TVShows AppUITests" */;
-			buildPhases = (
-				FF1ACF082544A9BF00D63686 /* Sources */,
-				FF1ACF092544A9BF00D63686 /* Frameworks */,
-				FF1ACF0A2544A9BF00D63686 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF1ACF0E2544A9BF00D63686 /* PBXTargetDependency */,
-			);
-			name = "TVShows AppUITests";
-			productName = "TVShows AppUITests";
-			productReference = FF1ACF0C2544A9BF00D63686 /* TVShows AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,10 +403,6 @@
 						CreatedOnToolsVersion = 12.0.1;
 					};
 					FF1ACF002544A9BF00D63686 = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = FF1ACEE72544A9BC00D63686;
-					};
-					FF1ACF0B2544A9BF00D63686 = {
 						CreatedOnToolsVersion = 12.0.1;
 						TestTargetID = FF1ACEE72544A9BC00D63686;
 					};
@@ -224,7 +423,6 @@
 			targets = (
 				FF1ACEE72544A9BC00D63686 /* TVShows App */,
 				FF1ACF002544A9BF00D63686 /* TVShows AppTests */,
-				FF1ACF0B2544A9BF00D63686 /* TVShows AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,7 +434,11 @@
 			files = (
 				FF1ACEFB2544A9BF00D63686 /* LaunchScreen.storyboard in Resources */,
 				FF1ACEF82544A9BF00D63686 /* Assets.xcassets in Resources */,
-				FF1ACEF32544A9BC00D63686 /* Main.storyboard in Resources */,
+				FF1ACFBA2544ECED00D63686 /* TVShowCell.xib in Resources */,
+				FF1ACF782544C34800D63686 /* HomeView.xib in Resources */,
+				FF0F8E202546187800943934 /* TabBarView.xib in Resources */,
+				FF095B6E2545D809002FC54C /* FavView.xib in Resources */,
+				FF095B4D25451812002FC54C /* DetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,23 +449,115 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF1ACF0A2544A9BF00D63686 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40733E246A1797B6EFCC3055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVShows AppTests/Pods-TVShows AppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVShows AppTests/Pods-TVShows AppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TVShows AppTests/Pods-TVShows AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		786102DE706D6F4EABE6C37C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVShows AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		804D8035E771A3BA86129DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVShows App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5B62F4257E11C69392236D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVShows App/Pods-TVShows App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVShows App/Pods-TVShows App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TVShows App/Pods-TVShows App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF1ACEE42544A9BC00D63686 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF1ACEF02544A9BC00D63686 /* ViewController.swift in Sources */,
+				FF7D45432546BC0A00D8D404 /* Show+CoreDataClass.swift in Sources */,
+				FF0F8E442546263500943934 /* TabBarViewModel.swift in Sources */,
+				FF1ACF8F2544CB4900D63686 /* TVShows.swift in Sources */,
+				FF095B4C25451812002FC54C /* DetailView.swift in Sources */,
+				FF1ACFB92544ECED00D63686 /* TVShowCell.swift in Sources */,
+				FF1ACF7E2544C99A00D63686 /* Connector.swift in Sources */,
+				FF1ACF372544B06900D63686 /* Constants.swift in Sources */,
+				FF095B5825455BF2002FC54C /* DetailRouter.swift in Sources */,
+				FF095B6D2545D809002FC54C /* FavView.swift in Sources */,
+				FF1ACF4D2544BBD100D63686 /* HomeRouter.swift in Sources */,
+				FF095B772545D984002FC54C /* FavRouter.swift in Sources */,
+				FF0F8E1F2546187800943934 /* TabBarView.swift in Sources */,
+				FF7D45442546BC0A00D8D404 /* Show+CoreDataProperties.swift in Sources */,
+				FF1ACF5A2544BF5F00D63686 /* HomeViewModel.swift in Sources */,
 				FF1ACEEC2544A9BC00D63686 /* AppDelegate.swift in Sources */,
+				FF1ACF772544C34800D63686 /* HomeView.swift in Sources */,
+				FF095B7F2545DA74002FC54C /* FavViewModel.swift in Sources */,
+				FF0F8E2525461D2B00943934 /* TabBarRouter.swift in Sources */,
+				FF095B5225455AED002FC54C /* DetailViewModel.swift in Sources */,
 				FF1ACEF62544A9BC00D63686 /* TVShows_App.xcdatamodeld in Sources */,
+				FF08E37F2544F5C400D7DF03 /* Extensions.swift in Sources */,
 				FF1ACEEE2544A9BC00D63686 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,15 +566,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7D45572546C9B300D8D404 /* ViewModelTest.swift in Sources */,
+				FF7D455B2546CA6900D8D404 /* HomeViewModel.swift in Sources */,
 				FF1ACF062544A9BF00D63686 /* TVShows_AppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF1ACF082544A9BF00D63686 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF1ACF112544A9BF00D63686 /* TVShows_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,22 +580,9 @@
 			target = FF1ACEE72544A9BC00D63686 /* TVShows App */;
 			targetProxy = FF1ACF022544A9BF00D63686 /* PBXContainerItemProxy */;
 		};
-		FF1ACF0E2544A9BF00D63686 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FF1ACEE72544A9BC00D63686 /* TVShows App */;
-			targetProxy = FF1ACF0D2544A9BF00D63686 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FF1ACEF12544A9BC00D63686 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF1ACEF22544A9BC00D63686 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FF1ACEF92544A9BF00D63686 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +645,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +700,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,11 +712,13 @@
 		};
 		FF1ACF162544A9BF00D63686 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6480F0D3C223C0508A6BFE29 /* Pods-TVShows App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TVShows App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,17 +726,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sgba.TVShows-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FF1ACF172544A9BF00D63686 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8300277F9DD8DFACFA8CAF /* Pods-TVShows App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TVShows App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,12 +746,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sgba.TVShows-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		FF1ACF192544A9BF00D63686 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541E3727CA15039083A8E780 /* Pods-TVShows AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +774,7 @@
 		};
 		FF1ACF1A2544A9BF00D63686 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF087B0F7BAEB171E63CDDE /* Pods-TVShows AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,44 +791,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVShows App.app/TVShows App";
-			};
-			name = Release;
-		};
-		FF1ACF1C2544A9BF00D63686 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "TVShows AppUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sgba.TVShows-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "TVShows App";
-			};
-			name = Debug;
-		};
-		FF1ACF1D2544A9BF00D63686 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "TVShows AppUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sgba.TVShows-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "TVShows App";
 			};
 			name = Release;
 		};
@@ -577,15 +820,6 @@
 			buildConfigurations = (
 				FF1ACF192544A9BF00D63686 /* Debug */,
 				FF1ACF1A2544A9BF00D63686 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF1ACF1B2544A9BF00D63686 /* Build configuration list for PBXNativeTarget "TVShows AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF1ACF1C2544A9BF00D63686 /* Debug */,
-				FF1ACF1D2544A9BF00D63686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

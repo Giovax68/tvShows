@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TVShows App
 //
-//  Created by M22 on 24/10/20.
+//  Created by Giovanny Bonifaz on 24/10/20.
 //
 
 import UIKit

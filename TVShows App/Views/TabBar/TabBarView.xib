@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTabBarView" customModule="TVShows_App" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tabBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aD-ZN-eAP">
+                    <rect key="frame" x="0.0" y="804.5" width="414" height="57.5"/>
+                    <items>
+                        <tabBarItem title="TV Shows" id="Jm9-AM-9b3">
+                            <imageReference key="image" image="tv" catalog="system" symbolScale="default"/>
+                            <imageReference key="selectedImage" image="tv.fill" catalog="system" symbolScale="default"/>
+                        </tabBarItem>
+                        <tabBarItem title="Favorites" id="uby-hC-X2D">
+                            <imageReference key="image" image="star.circle" catalog="system" symbolScale="default"/>
+                            <imageReference key="selectedImage" image="star.circle.fill" catalog="system" symbolScale="default"/>
+                        </tabBarItem>
+                    </items>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="LNV-aS-HaT"/>
+                    </connections>
+                </tabBar>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="9aD-ZN-eAP" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Q4U-Nd-PP2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="9aD-ZN-eAP" secondAttribute="bottom" id="Quz-oI-TzO"/>
+                <constraint firstItem="9aD-ZN-eAP" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.07" id="dKt-p2-2a1"/>
+                <constraint firstItem="9aD-ZN-eAP" firstAttribute="width" secondItem="fnl-2z-Ty3" secondAttribute="width" id="fWs-1S-h0c"/>
+            </constraints>
+            <point key="canvasLocation" x="601" y="43"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star.circle" catalog="system" width="128" height="121"/>
+        <image name="star.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="tv" catalog="system" width="128" height="97"/>
+        <image name="tv.fill" catalog="system" width="128" height="97"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
